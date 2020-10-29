@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Hello Relative</string>
+    <string name="app_name">Scrolling text</string>
+    <string name="article_title">Article title</string>
+    <string name="article_subtitle">Article Subtitle</string>
+    <string name="article_text">
+        In a real app that accesses magazine or newspaper articles, the articles that appear would probably come from an online
+source through a content provider or might be saved in advance in a database on the device.\n\n
+For this practical, you will create the article as a single long string in the strings.xml resource.\n\n
+1. In the app > res > values folder, open strings.xml.\n\n
+2. Enter the values for the strings article_title and article_subtitle with a made-up title and a subtitle for the article you are adding.\n\n
+The string values for each should be single-line text without HTML tags or multiple lines.\n\n
+3. Enter or copy and paste text for the article_text string.\n\n
+Use the text provided for the article_text string in the strings.xml file of the finished ScrollingText app, or use your own
+generic text. You can copy and then paste the same sentence over and over, as long as the result is a long section of
+text that will not fit entirely on the screen. Keep in mind the following (refer to the figure below for an example):\n\n
+i. As you enter or paste text in the strings.xml file, the text lines don\'t wrap around to the next line—they extend
+beyond the right margin. This is the correct behavior—each new line of text starting at the left margin represents
+an entire paragraph.\n\n
+ii. Enter \n\n to represent the end of a line, and another \n\n to represent a blank line.\n\n
+Why? You need to add end-of-line chara \n\n
+        test <b>test</b><i>test</i> http://google.com/\n\n
+        test <b>test</b><i>test</i> http://google.com/\n\n
+        test <b>test</b><i>test</i> http://google.com/\n\n
+        test <b>test</b><i>test</i> http://google.com/\n\n
+        test <b>test</b><i>test</i> http://google.com/\n\n
+    </string>
 </resources>
